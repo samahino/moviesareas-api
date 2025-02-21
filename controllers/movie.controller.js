@@ -3,13 +3,13 @@ export const MovieIndex = (req, res) => {
 };
 
 export const MovieCreate = (req, res) => {
-  res.send("create movie lists");
+  res.send("create a movie");
 };
 
 export const MovieUpdate = (req, res) => {
-  res.send("Update movie lists");
+  res.send("Update a movie");
 };
 
 export const MovieDelete = (req, res) => {
-  res.send("Delete movie lists");
+  res.send("Delete a movie");
 };

@@ -1,4 +1,10 @@
 import express from "express";
+import {
+  MovieCreate,
+  MovieDelete,
+  MovieIndex,
+  MovieUpdate,
+} from "../controllers/movie.controller.js";
 
 const router = express.Router();
 //R- for reading
