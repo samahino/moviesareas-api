@@ -4,6 +4,9 @@ import connectDB from "./lib/db.js";
 const app = express();
 const PORT = 6969;
 
+//data understaing middleware
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 //connect db
 connectDB();
 
